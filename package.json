@@ -19,6 +19,7 @@
     "next": "^9.0.3",
     "nodemon": "^1.19.1",
     "react": "^16.9.0",
+    "react-calendar": "^2.19.1",
     "react-dom": "^16.9.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.2"
