@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { NextPage, NextPageContext } from 'next';
+import { connect } from 'react-redux'
 
 interface Props {
   query: { name?: string };
@@ -17,4 +18,8 @@ Index.getInitialProps = async (ctx: NextPageContext) => {
   return { query };
 };
 
-export default Index;
+const mapDispatchToProps = { Index }
+export default connect(
+  null,
+  mapDispatchToProps
+)(Index)
